@@ -100,6 +100,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: "Roboto", sans-serif;
 }
 
 .section-title {
@@ -137,7 +138,6 @@ body {
 
 .card-description {
     font-size: 14px;
-    color: #555;
 }
 
 .order-button-container {
