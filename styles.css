@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@200;300&family=Raleway:wght@100&family=Roboto&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.bg-container {
+    margin: 0;
+}
+
+.first-page-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    background-color: #f76060;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+.list-item {
+    list-style: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-bar {
+    height: 20px;
+    width: 20px;
+    margin-right: 30px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    background-image: linear-gradient(to right, #f8fa98, #f7c1c9);
+    font-family: "Roboto", sans-serif;
+    flex: 1;
+}
+
+.heading {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 18px;
+}
+
+.description {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+.button {
+    height: 26px;
+    width: 100px;
+    color: #ffffff;
+    border: none;
+    background-color: #f76060;
+    font-size: 12px;
+}
+
+.burger-image {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.second-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #f8fa98, #f7c1c9, #f590f3);
+    height: 100vh;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.two-images {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.first-images {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.second-image {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    background-color: #f76060;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    width: 30%;
+}
+
+.card-side-heading {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 12px;
+}
+
+.card-heading {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 36px;
+}
+
+.click-container {
+    display: flex;
+    align-items: center;
+}
+
+.click-para {
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.arrow-img {
+    height: auto;
+    width: 16px;
+}
+
+@media screen and (min-width: 576px) {
+    .list-item {
+        font-size: 20px;
+    }
+
+    .menu-bar {
+        height: 22px;
+        width: 22px;
+    }
+
+    .heading {
+        font-size: 26px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+
+    .button {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .first-images {
+        height: 200px;
+        width: 200px;
+    }
+
+    .second-image {
+        height: 400px;
+        width: 200px;
+    }
+
+    .card-side-heading {
+        font-size: 14px;
+    }
+
+    .card-heading {
+        font-size: 26px;
+    }
+
+    .click-para {
+        font-size: 14px;
+    }
+
+    .arrow-img {
+        width: 18px;
+    }
+
+    .images-container {
+        flex-direction: row;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .list-container {
+        flex-direction: row;
+    }
+
+    .list-item {
+        font-size: 22px;
+    }
+
+    .menu-bar {
+        height: 25px;
+        width: 25px;
+    }
+
+    .content-container {
+        flex-direction: row;
+        min-height: 100vh;
+    }
+
+    .details-container {
+        flex: 1;
+    }
+
+    .heading {
+        font-size: 50px;
+    }
+
+    .description {
+        font-size: 20px;
+    }
+
+    .button {
+        height: 40px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .burger-image {
+        flex: 1;
+        width: 50%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .second-page-container {
+        flex-direction: row;
+    }
+
+    .first-images {
+        height: 250px;
+        width: 250px;
+    }
+
+    .second-image {
+        height: 500px;
+        width: 250px;
+    }
+
+    .card-side-heading {
+        font-size: 18px;
+    }
+
+    .card-heading {
+        font-size: 36px;
+    }
+
+    .click-para {
+        font-size: 16px;
+    }
+
+    .arrow-img {
+        width: 20px;
+    }
+}
